@@ -1,0 +1,28 @@
+{
+  "repo": "ipid",
+  "feeds": [
+    {
+      "source": "https://ipid.tech/demo",
+      "feed_url": "https://ipid.tech/demo",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://ipid.tech/blog/rss.xml",
+      "feed_url": "https://ipid.tech/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://ipid.tech/blog",
+      "feed_url": "https://ipid.tech/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 28,
+  "fetched": "2026-07-25T15:00:33Z"
+}

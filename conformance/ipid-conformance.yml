@@ -1,0 +1,35 @@
+generated: '2026-07-19'
+method: searched
+source: https://ipid.tech/
+note: >-
+  iPiD publicly markets its iPiD Node product as a scheme-compliance layer for the
+  major payee-verification regulatory frameworks. These are published product/marketing
+  claims of conformance to cross-cutting payments standards, not independently audited
+  security certifications (no SOC 2 / ISO 27001 / PCI DSS posture is published on the
+  public site). No public OpenAPI is available for iPiD, so technical (spec-derived)
+  conformance could not be asserted.
+standards:
+  - id: eu-vop
+    name: EU Verification of Payee (VoP)
+    conforms: true
+    evidence: iPiD Node marketed as an EU VoP scheme-compliance solution (ipid.tech)
+  - id: uk-cop
+    name: UK Confirmation of Payee (CoP)
+    conforms: true
+    evidence: iPiD Node marketed as a UK CoP scheme-compliance solution (ipid.tech)
+  - id: fatf-16
+    name: FATF Recommendation 16 (Travel Rule)
+    conforms: true
+    evidence: iPiD Node marketed as a FATF-16 compliance solution (ipid.tech)
+  - id: us-nacha
+    name: US Nacha (ACH) account validation
+    conforms: true
+    evidence: iPiD Node marketed as a US Nacha account-validation compliance solution (ipid.tech)
+  - id: soc2
+    name: SOC 2
+    conforms: false
+    evidence: no public SOC 2 report / trust page found on the public site
+  - id: iso-27001
+    name: ISO/IEC 27001
+    conforms: false
+    evidence: no public ISO 27001 certification claim found on the public site
