@@ -1,0 +1,25 @@
+# Front Door AI Index — ipid — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: ipid
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: ipid.tech
+  final_host: ipid.tech
+  ownership: own
+  owner: ipid
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 2
+  host_score: 2
+  density: 1.35
+  words: 1477
+  tiers:
+    agentic: 0
+    core: 2
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 2
